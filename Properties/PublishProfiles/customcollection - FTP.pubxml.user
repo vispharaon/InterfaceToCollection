@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAF+glvO3NeEqq4ziXipz6vgAAAAACAAAAAAAQZgAAAAEAACAAAAAO3+vLn+qMMorfq8xen2rOkMusarBGbKZXafa2nd8s/QAAAAAOgAAAAAIAACAAAAAK/Zl0sqwALcIl4L2+ABBX1h7e/R5RRYCYxvWlkBjV7oAAAADVpRqHbfkhbk2aL6P2QEveuLCl8sj/b6jQtW+053vSQ7ZtI16t/Emsxy6Ih92ocA74vwsw+SbspBuvycTAOaqENsdFpIdRbf5h6oQ/hC9fRD8j7fDOWvoZdWMmSu+HcWGDVR5sNzNIeZVrjOFXZU5RZgIu5qzRvaoHSQHoj655iEAAAAB+su2zMQBcpEkklvv+b7HXm5MlBGvhboGinvNBjHbigMCGbrIYxXr73ohCNVEKD+csJdiBpnfMLypAbefwbRfZ</EncryptedPassword>
+    <_PublishTargetUrl>ftp://waws-prod-db3-039.ftp.azurewebsites.windows.net/site/wwwroot</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="appsettings.Development.json">
+      <publishTime>01/10/2019 10:05:51</publishTime>
+    </File>
+    <File Include="appsettings.json">
+      <publishTime>01/10/2019 10:05:51</publishTime>
+    </File>
+    <File Include="InterfaceToCollection.deps.json">
+      <publishTime>01/10/2019 12:12:39</publishTime>
+    </File>
+    <File Include="InterfaceToCollection.dll">
+      <publishTime>01/10/2019 12:12:36</publishTime>
+    </File>
+    <File Include="InterfaceToCollection.pdb">
+      <publishTime>01/10/2019 12:12:36</publishTime>
+    </File>
+    <File Include="InterfaceToCollection.runtimeconfig.json">
+      <publishTime>01/10/2019 12:12:39</publishTime>
+    </File>
+    <File Include="web.config">
+      <publishTime>01/10/2019 12:12:39</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
