@@ -22,9 +22,12 @@ namespace InterfaceToCollection.Controllers
 
         // GET: api/AptRenovationItems
         [HttpGet]
-        public IEnumerable<AptRenovationItem> GetAptRenovationItem()
+        public IEnumerable<AptRenovationItem> GetAptRenovationItem([FromQuery(Name="name")] string name)
         {
-            return _context.AptRenovationItem;
+            if (name != null && name != string.Empty)
+                return _context.AptRenovationItem.Where(x => x.Name.Contains(name));
+            else
+                return _context.AptRenovationItem;
         }
 
         // GET: api/AptRenovationItems/5
