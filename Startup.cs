@@ -48,7 +48,7 @@ namespace InterfaceToCollection
             }
 
             // Shows UseCors with CorsPolicyBuilder.
-            app.UseCors(builder => builder.WithOrigins("http://localhost:4200")
+            app.UseCors(builder => builder
                                           .AllowAnyHeader()
                                           .AllowAnyMethod()
                                           .AllowAnyOrigin()
